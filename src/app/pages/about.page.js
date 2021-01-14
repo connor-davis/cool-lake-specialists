@@ -10,7 +10,7 @@ let AboutPage = () => {
             </Row>
 
             <Col className="p-0 m-0">
-                <p className="px-2 py-4">To be a respectable contractor in providing quality service and workmanship beyond expectation
+                <p className="px-2 py-4">To be a trustworthy contractor in providing quality service and workmanship beyond expectation
 to the Domestic, Commercial and Industrial Sector, adding value to the economy.</p>
             </Col>
 
