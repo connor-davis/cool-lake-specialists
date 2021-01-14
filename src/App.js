@@ -28,7 +28,7 @@ let App = (props) => {
                 <NavLink tag={Link} to="/about">About</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to="/services">Services</NavLink>
+                {/* <NavLink tag={Link} to="/services">Services</NavLink> */}
               </NavItem>
             </Nav>
           </Collapse>
@@ -38,7 +38,7 @@ let App = (props) => {
         <Switch>
           <Route path="/" exact component={(props) => <HomePage {...props} />} />
           <Route path="/about" component={(props) => <AboutPage {...props} />} />
-          <Route path="/services" component={(props) => <AboutPage {...props} />} />
+          {/* <Route path="/services" component={(props) => <AboutPage {...props} />} /> */}
         </Switch>
 
         <Navbar dark className="p-0 py-4 m-0 bg-dark-plus">
