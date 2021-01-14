@@ -6,6 +6,7 @@ import { Navbar, NavbarBrand, NavbarToggler, NavbarText, Collapse, Nav, NavItem,
 import { Route, BrowserRouter as Router, Switch, Link } from 'react-router-dom';
 import HomePage from './app/pages/home.page';
 import AboutPage from './app/pages/about.page';
+import ServicesHomePage from './app/pages/services.page';
 
 let App = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,7 +29,7 @@ let App = (props) => {
                 <NavLink tag={Link} to="/about">About</NavLink>
               </NavItem>
               <NavItem>
-                {/* <NavLink tag={Link} to="/services">Services</NavLink> */}
+                <NavLink tag={Link} to="/services">Services</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
@@ -38,7 +39,7 @@ let App = (props) => {
         <Switch>
           <Route path="/" exact component={(props) => <HomePage {...props} />} />
           <Route path="/about" component={(props) => <AboutPage {...props} />} />
-          {/* <Route path="/services" component={(props) => <AboutPage {...props} />} /> */}
+          <Route path="/services" component={(props) => <ServicesHomePage {...props} />} />
         </Switch>
 
         <Navbar dark className="p-0 py-4 m-0 bg-dark-plus">
