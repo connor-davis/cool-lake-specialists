@@ -11,11 +11,11 @@ let HomePage = () => {
             </Row>
 
             <Row className="p-0 m-0">
-                <Col className="bg-primary text-light text-center py-5" tag={"h1"}>Specialist Air Conditioner Contractor</Col>
+                <Col className="bg-primary text-light text-center py-5" tag={"h1"}>A Specialist For Every Need</Col>
             </Row>
 
             <Col>
-                <p className="px-2 py-5">Cool Lake Specialist Contractors CC was founded in the Year 2006. Since then, we have been providing our services to various companies in the Kwazulu Natal Region. Cool Lake is an empowered company with 100% Black Ownership.</p>
+                <p className="px-2 py-5">Cool Lake Specialist Contractors CC was founded in the Year 2006. Since then, we have been providing our services to various companies on both an industrial and domestic level in the Kwazulu Natal Region. Cool Lake is an empowered company with 100% Black Ownership.</p>
             </Col>
         </>
     );
