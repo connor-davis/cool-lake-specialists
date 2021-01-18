@@ -1,10 +1,9 @@
-import React from "react";
+import { Card, CardBody, CardImg, CardTitle, Col, Row } from "reactstrap";
 
-import { Button, Card, CardBody, CardImg, CardSubtitle, CardText, CardTitle, Col, ListGroup, ListGroupItem, Row } from "reactstrap";
-
-import RepairImage from '../assets/repair.svg';
 import ConstructionImage from '../assets/construction.svg';
 import MaintenanceImage from '../assets/maintenance.svg';
+import React from "react";
+import RepairImage from '../assets/repair.svg';
 import SecurityImage from '../assets/security.svg';
 import TransportationImage from '../assets/transportation.svg';
 

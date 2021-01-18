@@ -1,10 +1,9 @@
-import React from "react";
+import { Card, CardBody, CardImg, CardTitle, Col, Row } from "reactstrap";
 
-import { Button, Card, CardBody, CardImg, CardSubtitle, CardText, CardTitle, Col, ListGroup, ListGroupItem, Row } from "reactstrap";
-
-import EngineeringImage from '../assets/repair.svg';
 import ElectricalImage from '../assets/electrical.svg';
+import EngineeringImage from '../assets/repair.svg';
 import HardwareImage from '../assets/hardware.svg';
+import React from "react";
 
 let SuppliesHomePage = () => {
     return (

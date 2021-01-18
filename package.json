@@ -3,17 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/helper-builder-react-jsx": "^7.10.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.3",
     "bootswatch": "^4.5.3",
     "node-sass": "^4.14.1",
+    "nodemailer": "^6.4.17",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "reactstrap": "^8.8.1",
+    "sendmail": "^1.6.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
