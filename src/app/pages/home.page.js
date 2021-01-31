@@ -1,7 +1,7 @@
 import { Col, Row } from "reactstrap";
 
 import ContactPage from "./contact.page";
-import HomeImageOne from "../assets/home_img_01.png";
+import HomeImageOne from "../assets/home_img.png";
 import React from "react";
 
 let HomePage = () => {
@@ -16,7 +16,7 @@ let HomePage = () => {
             </Row>
 
             <Col>
-                <p className="px-2 py-5">Cool Lake Specialist Contractors CC was founded in the Year 2006. Since then, we have been providing our services to various companies on both an industrial and domestic level in the Kwazulu Natal Region. Cool Lake is an empowered company with 100% Black Ownership.</p>
+                <p className="px-2 py-5">Cool Lake Specialist Contractors CC was founded in the Year 2006. Since then, we have been providing our services to various companies on both an industrial and domestic level. Cool Lake is an empowered company with 100% Black Ownership, BEE Level 1.</p>
             </Col>
 
             <ContactPage />
