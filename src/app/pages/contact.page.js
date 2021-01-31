@@ -35,7 +35,7 @@ let ContactPage = () => {
                                 <span className="pl-3 text-light" tag="p">Main Office:</span>
                                 <div className="text-muted pl-3">
                                     <Row className="p-0 m-0 pb-3">17 School Road, Parkgate, Riet River, Verulam, 4339</Row>
-                                    <Row className="p-0 m-0 pb-3">56 Crassula Drive, Micropark, Unit 64, Cornubia, 4339</Row>
+                                    <Row className="p-0 m-0 pb-3">26 Crassula Drive, Micropark, Unit 64, Cornubia, 4339</Row>
                                     <Row className="p-0 m-0 pb-3">P.O. Box 60385, Phoenix, 4080</Row>
                                 </div>
                             </Row>
