@@ -18,6 +18,7 @@
     "react-scripts": "4.0.1",
     "reactstrap": "^8.8.1",
     "sendmail": "^1.6.1",
+    "spin.js": "^4.1.0",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -43,5 +44,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "esmify": "^2.1.1"
   }
 }

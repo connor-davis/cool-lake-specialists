@@ -8,7 +8,6 @@ import SocialMediaImage from "../assets/socialmedia.svg";
 import FacebookImage from "../assets/facebook.svg";
 import InstagramImage from "../assets/instagram.svg";
 import React from "react";
-import { Link } from "react-router-dom";
 
 let ContactPage = () => {
     return (
