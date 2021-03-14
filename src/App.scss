@@ -3,7 +3,48 @@
 @import "./app/styles/bootswatch";
 
 body {
-    background-color: $dark;
-    color: $light;
+    background-color: $light;
+    color: $dark;
     font-size: medium;
+}
+
+.app {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.text-shadow {
+    text-shadow: 0px 0px 4px rgba(#000000, 1);
+}
+
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("./app/assets/background.png");
+    object-fit: scale-down;
+    z-index: 0;
+}
+
+.text-muted {
+    color: #e0e0e0!important;
+}
+
+.carousel-controlbtn {
+    width: 30px;
+    height: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba($primary, 0.8);
+}
+
+.carousel-indicators {
+    background: rgba($primary, 0.8);
 }

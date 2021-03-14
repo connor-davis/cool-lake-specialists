@@ -1,5 +1,6 @@
 import { Alert, Button, Col, Form, FormGroup, Input, Label } from "reactstrap";
 import React, { useState } from "react";
+
 import { sendEmail } from "../utils/sendemail";
 
 let ContactForm = () => {
@@ -48,7 +49,7 @@ let ContactForm = () => {
         <FormGroup>
           <Label for="name">Name</Label>
           <Input
-            className="bg-dark shadow text-light"
+            className="bg-dark shadow"
             type="text"
             name="name"
             id="name"
@@ -61,7 +62,7 @@ let ContactForm = () => {
         <FormGroup>
           <Label for="name">Email</Label>
           <Input
-            className="bg-dark shadow text-light"
+            className="bg-dark shadow"
             type="text"
             name="name"
             id="name"
@@ -74,7 +75,7 @@ let ContactForm = () => {
         <FormGroup>
           <Label for="name">Subject</Label>
           <Input
-            className="bg-dark shadow text-light"
+            className="bg-dark shadow"
             type="text"
             name="name"
             id="name"
@@ -89,7 +90,7 @@ let ContactForm = () => {
           <Input
             tag="textarea"
             rows={5}
-            className="bg-dark shadow text-light"
+            className="bg-dark shadow"
             type="text"
             name="name"
             id="name"

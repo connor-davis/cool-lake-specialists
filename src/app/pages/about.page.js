@@ -1,6 +1,6 @@
-import React from "react";
-
 import { Col, Row } from "reactstrap";
+
+import React from "react";
 
 let AboutPage = () => {
     return (
@@ -10,7 +10,7 @@ let AboutPage = () => {
             </Row>
 
             <Col className="p-0 m-0">
-                <p className="px-2 py-4">To be a trustworthy contractor in providing quality service and workmanship beyond expectation
+                <p className="px-2 py-4 text-shadow">To be a trustworthy contractor in providing quality service and workmanship beyond expectation
 to the Domestic, Commercial and Industrial Sector, adding value to the economy.</p>
             </Col>
 
@@ -19,7 +19,7 @@ to the Domestic, Commercial and Industrial Sector, adding value to the economy.<
             </Row>
 
             <Col className="p-0 m-0">
-                <p className="px-2 py-4">In order to provide specialised services, we intend continuing and taking on the role of the Main Contractor
+                <p className="px-2 py-4 text-shadow">In order to provide specialised services, we intend continuing and taking on the role of the Main Contractor
                 for small and medium size projects to the Domestic, Commercial and Industrial Business Sector. As the
                 Main Contractor, we focus on clear communication with the clients prioritising their requirements and
 objectives in planning, designing and execution of all tasks during and after the processes.</p>
@@ -30,8 +30,8 @@ objectives in planning, designing and execution of all tasks during and after th
             </Row>
 
             <Col className="p-0 m-0">
-                <p className="px-2 py-4">The following emphasis is heeded during Planning & Execution:</p>
-                <ul>
+                <p className="px-2 py-4 text-shadow">The following emphasis is heeded during Planning & Execution:</p>
+                <ul className="text-shadow">
                     <li>Providing a detailed schedule plan.</li>
                     <li>Provide high quality and affordable products.</li>
                     <li>Keep open and clear communication with the client's teams.</li>

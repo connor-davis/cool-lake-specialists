@@ -17,7 +17,7 @@ $gray-800: #15171a !default;
 $gray-900: #0e0f11 !default;
 $black:    #000 !default;
 
-$blue:    #3e4095 !default;
+$blue:    #5cb0ff !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
@@ -27,6 +27,8 @@ $yellow:  #f0ad4e !default;
 $green:   #4bbf73 !default;
 $teal:    #20c997 !default;
 $cyan:    #1f9bcf !default;
+
+$blueOpaque: rgba(92, 95, 255, 0.39);
 
 $primary:       $blue !default;
 $secondary:     $white !default;
